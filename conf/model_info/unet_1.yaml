@@ -1,0 +1,18 @@
+pre_train: false
+
+model: "UNet"
+loss: "Dice"
+optimizer: "Adam"
+metric: "Dice"
+
+in_channels: 3
+out_channels: 1
+batch_size: 32
+epochs: 100
+patience: 100
+scheduler_patience: 100
+learning_rate: 1e-5
+save_model_path: "models_weights/{}_fold/model.pth"
+
+n_inference: 1
+name: "UNet_D"

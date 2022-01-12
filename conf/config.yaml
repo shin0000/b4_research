@@ -1,0 +1,12 @@
+defaults:
+  - augmentation: aug1
+  - model_info: unet_1
+  - gpu: gpu1
+
+mlfr_used: true
+cross_validation: true
+comment: ""
+seed: 123
+
+
+# python3 main.py -m model_info=uncertainty_bunet_2 augmentation=aug1,aug5 gpu=gpu1_2 seed=47,17,81,179,178,55,120,25,59,73

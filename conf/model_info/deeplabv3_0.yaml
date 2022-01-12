@@ -1,0 +1,19 @@
+pre_train: false
+
+model: "DeepLabV3"
+backbone: "resnet50"
+loss: "Dice"
+optimizer: "Adam"
+metric: "Dice"
+
+in_channels: 3
+out_channels: 1
+batch_size: 32
+epochs: 1
+patience: 1
+scheduler_patience: 1
+learning_rate: 1e-4
+save_model_path: "models_weights/{}_fold/model.pth"
+
+name: "DLV3RN50_D"
+# test

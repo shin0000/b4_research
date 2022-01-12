@@ -1,0 +1,3 @@
+device: "cuda:0"
+multi_gpu: true
+multi_device_ids: [0,2]

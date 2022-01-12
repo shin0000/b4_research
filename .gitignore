@@ -1,0 +1,13 @@
+__pycache__/
+.ipynb_checkpoints/
+images/
+mlruns/
+models_weights/
+outputs/
+multirun/
+bayesian/
+results/
+make_video/model_weight 
+make_video/output_video
+make_video/output_img
+make_video/input_video

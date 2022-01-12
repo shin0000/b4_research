@@ -1,0 +1,3 @@
+mkdir results
+mkdir make_video/model_weight
+mkdir make_video/output_video

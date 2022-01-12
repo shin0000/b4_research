@@ -1,0 +1,7 @@
+data_aug: true
+instruments_aug: false
+cutmix_aug: false
+
+aug_dir: "instruments"
+
+name: "aug2"
